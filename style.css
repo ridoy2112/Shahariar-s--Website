@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sliderImg img{
+    height: 400px;
+}
+.backGround{
+    background-image: url('images/Steel.jpg');
+    background-size: cover;
+
+}
+.radius{
+     border-radius: 50px;
+}
+.color{
+    color: rgb(4, 223, 4);
+}
+.list ul{
+    display: flex;
+    justify-content: center;  
+}
+.list ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.list ul li .fab{
+    font-size: 30px;
+    line-height: 200px;
+    color:#fff;
+}
+.list ul li .fas{
+    font-size: 30px;
+    line-height: 200px;
+    color:#fff;
+}
+.font-family{
+    font-family: 'Permanent Marker', cursive;
+}
+.prize{
+    color:rgb(255, 255, 255);
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .disappear{
+    animation: vanish 1s forwards;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
